@@ -3,43 +3,62 @@ html{
 }
 
 body {
-    background-color: aliceblue;
+    background-color:rgba(245, 245, 245, 0.1);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-header {
-    background-color: blue;
-    color: aliceblue;
+nav {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
     font-weight: bold;
   
 }
 
 #logo {
+    position: fixed;
     font-size: 1.5rem;
     padding-left: 1rem;
 }
 
-ul {
+menu {
     display: flex;
-    margin-left: 55rem;
-    
-    
+    margin-left: 60%;
+        
 }
 
-ul li {
+.nav-item {
     font-size: 1.5rem;
+    color: black;
     list-style: none;
-    margin-right: 2rem;
-
+    margin-right: 1.5rem;
 }
 
-section {
-    height: 40rem;
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: gray;
+    color: white;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.2rem;
+    
+}
+
+h2 {
+    margin-left: 5rem;
+}
+
+
+#about-me {
+    height: 30rem;
 }
 
 footer {
-    background-color: blueviolet;
     text-align: center;
     padding: 0.5rem 0;
 }
+
