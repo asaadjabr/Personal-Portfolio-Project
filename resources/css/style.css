@@ -31,16 +31,16 @@ menu {
 
 .nav-item {
     font-size: 1.5rem;
-    color: black;
     list-style: none;
     margin-right: 1.5rem;
 }
 
-a {
+.nav-link {
+    color: black;
     text-decoration: none;
 }
 
-a:hover {
+.nav-link:hover {
     background-color: gray;
     color: white;
     border: 0.1rem solid black;
@@ -53,6 +53,9 @@ h2 {
     margin-left: 5rem;
 }
 
+p {
+    margin-left: 5rem;
+}
 
 #about-me {
     
@@ -74,18 +77,46 @@ h2 {
     grid-area: 1 / 1 / 2 / 2;
 }
 
-.about-me-image-container {
+#about-me-image-container {
    grid-area: 1 / 2 / 2 / 3;
 }
 
-.about-me-image {
-    height: 38rem;
-    width: 30rem;
+#about-me-image {
+    height: 30rem;
+    width: 25rem;
     border-radius: .5rem;
+}
+
+#projects {
+padding: 3rem 0;
+}
+
+details {
+    margin-left: 8rem;
+    
+    width: fit-content;
+}
+
+#skills {
+padding: 3rem 0;
+}
+
+.html-css-js {
+    margin-left: 8rem;
+}
+
+.html-css-js-logo {
+    height: 8rem;
+}
+
+.java-logo {
+    height: 8rem;
 }
 
 footer {
     text-align: center;
     padding: 0.5rem 0;
 }
+
+
 

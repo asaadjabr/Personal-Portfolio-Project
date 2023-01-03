@@ -12,10 +12,10 @@
         <nav>
             <div id="logo"><h1>Asaad Jabr</h1></div>
         <menu>
-            <li class="nav-item"><a href="./index.html">Home</a></li>
-            <li class="nav-item"><a href="#">Portfolio</a></li>
-            <li class="nav-item"><a href="#">Coding Skills</a></li>
-            <li class="nav-item"><a href="./contact.html">Contact</a></li>
+            <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Coding Skills</a></li>
+            <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
         </menu>
         </nav>
         
@@ -27,28 +27,72 @@
         <section id="about-me">
             <div class="about-me-container">
                 <div class="about-me-text-container">
-                    <h2>Hello!!!<br>I am Asaad Jabr. I am learning how to code</h2>
+                    <h2>Hello!!!</h2><br>
+                    <p>I am Asaad Jabr. I am from Lebanon and currently I am learning how to code with codecademy.</p>
+                    <p>My goal is to become full-stack engineer.</p>
                     </div>
-                    <div class="about-me-image-container">
-                        <img class="about-me-image" src="./resources/Photos/coding.jpg" alt="coding">
+                    <div id="about-me-image-container">
+                        <img id="about-me-image" src="./resources/Photos/coding.jpg" alt="coding">
+                        
                     </div>
                 
             </div>
             
             
         </section>
-        <section>
-            <h2>Project</h2>
-        </section>
-        <section>
-            <h2>Skills</h2>
+        <section id="projects">
+
+            <h2>My Projects</h2>
+
+            <details>
+                <summary><strong>Mixed Messages</strong></summary><br>
+                This project is a message generator program. Every time a user runs a program, they should get a new, randomized output.<br>
+                <br><strong>Technologies used:</strong><br>
+                <ul>
+                    <li>Javascript</li>
+                    <li>Command Line</li>
+                    <li>Git and Github</li>
+                </ul>
+            </details>
+            <br>
+            <details>
+                <summary><strong>Piano Keys</strong></summary><br>
+                This project an interactive game to help the beginner-level piano students study.<br>
+                <br><strong>Technologies used:</strong><br>
+                <ul>
+                    <li>Javascript</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                </ul>
+            </details>
+            <br>
+            <details>
+                <summary><strong>Form a story</strong></summary><br>
+                This project form used to input data to form a meaningful story.<br>
+                <br><strong>Technologies used:</strong><br>
+                <ul>
+                    <li>Javascript</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                </ul>
+            </details>
             
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="html-css-js">
+                    <img src="./resources/Photos/html5-css-js.png" class="html-css-js-logo" alt="logo">
+                    <img src="./resources/Photos/java.png" class="java-logo" alt="logo-java">
+                </div>
+            </div>
+
         </section>
     </main>
     
     <footer>
         <small>&copy 2022 Asaad Jabr</small>
     </footer>
-    
+    <script type="text/Javascript" src="./main.js"></script>
 </body>
 </html>

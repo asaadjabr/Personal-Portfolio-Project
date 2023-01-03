@@ -1,7 +1,20 @@
-h3 {
-    color: red;
+h2 {
+    margin-left: 5rem;
 }
 
-h2 {
-    margin-left: 0;
+p {
+    margin-left: 8rem;
 }
+
+.instagram-logo {
+    margin-left: 8rem;
+    height: 3rem;
+    width: 3rem;
+}
+.google-logo {
+    margin-left: 8rem;
+    height: 3rem;
+    width: 5rem;
+}
+
+
